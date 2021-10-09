@@ -1,0 +1,35 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #F6F6F6;
+    line-height: 1.5;
+}
+#app{
+    height: 100%;
+}
+.content-view {
+    height: calc(100% - 50px);
+}
+.content-view>.van-pull-refresh {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+.content-view > .van-pull-refresh >.van-pull-refresh__track{
+    min-height: 100%;
+    height: auto;
+}
+.custom-title {
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+}
